@@ -4,8 +4,6 @@ const port = 8080;
 
 App.use(Express.static("public"));
 
-App.use("/Lab3", Express.static());
-
 App.get("/public", function(req,res) {
     res.send("Hello,World!");
 });
