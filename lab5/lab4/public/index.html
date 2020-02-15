@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <script>
+        function idClicker(event) {
+          event.preventDefault();
+         let element = document.querySelector("#id");
+
+            fetch("/id/" + element.value).then((res) => {
+                return res.json();
+            }).then((processed) => {
+                
+            let reporting = document.querySelector("#reportingArea");
+
+            if(processed.error) {
+                reporting.innerHTML = processed.error;
+            } else {
+                reporting.innerHTML = processed.name;
+            }
+
+            });
+            }
+
+            function nameClicker(event) {
+                event.preventDefault();
+                let element = document.querySelector("#name");
+
+                fetch("/name/" + element.value).then((res) => {
+                    return res.json();
+                }).then((processed) => {
+                    
+                let reporting = document.querySelector("#reportingArea");
+
+                if(processed.error) {
+                    reporting.innerHTML = processed.error;
+                } else {
+                    reporting.innerHTML = processed.name;
+                }
+
+                });
+                }
+        </script>
+
+        
+            <form onsubmit ="idClicker(event)">
+                <p> Enter pokemon ID</p>
+            <input id="id" type="text">
+            <button>Submit</button>
+             </form>
+        <br>
+        
+            <form onsubmit ="nameClicker(event)">
+                <p> Enter pokemon name</p>
+                <input id="name" type="text">
+                <button>Submit</button>
+            </form>
+        <br>
+         
+            <div id="reportingArea"></div>
+    </body>
+</html>
