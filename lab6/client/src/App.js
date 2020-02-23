@@ -1,13 +1,13 @@
 import React from 'react';
-import IdSearch from './components/idSearch/';
-import NameSearch from './components/nameSearch/';
+import idSearch from './components/idSearch/';
+import nameSearch from './components/nameSearch/';
 
 class App extends React.Component {
   render(){
   return (
     <div>
-      <IdSearch></IdSearch>
-      <NameSearch></NameSearch>
+      <idSearch />
+      <nameSearch />
       <h2>Reporting</h2>
       <div id="reportingArea"></div>
     </div>
