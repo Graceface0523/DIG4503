@@ -6,8 +6,8 @@ class App extends React.Component {
   render(){
   return (
     <div>
-      <idSearch />
-      <nameSearch />
+      <idSearch></idSearch>
+      <nameSearch></nameSearch>
       <h2>Reporting</h2>
       <div id="reportingArea"></div>
     </div>
