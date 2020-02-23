@@ -2,26 +2,28 @@
 import React from "react";
 
 class idSearch extends React.Component{
-    readId(event){
+     idClicker(event) {
         event.preventDefault();
-        let pokeId = document.querySelector("#id");
+       let element = document.querySelector("#id");
 
-        fetch("http://localhost:80/id/" + pokeId.value).then((res)=>{
-            return res.json();
-        }).then((processed) =>{
-            let pokeResponse = document.querySelector("#reportingArea");
-            if(processed.error){
-                pokeResponse.innerHTML = processed.error;
-            }
-            else{
-                pokeResponse.innerHTML = processed.name;
-            }
-        });
-    }
+          fetch("/id/" + element.value).then((res) => {
+              return res.json();
+          }).then((processed) => {
+              
+          let reporting = document.querySelector("#reportingArea");
+
+          if(processed.error) {
+              reporting.innerHTML = processed.error;
+          } else {
+              reporting.innerHTML = processed.name;
+          }
+
+          });
+          }
     render(){
         return(
             <div>
-                <form onSubmit = {this.readId}>
+                <form onSubmit = {this.idClicker}>
                 <p>Enter Pokemon ID:</p>
                 <input id = "id" type = "text" />
                 <button>Submit</button>
