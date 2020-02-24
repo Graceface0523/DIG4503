@@ -1,6 +1,6 @@
 import React from "react";
 
-class nameSearch extends React.Component {
+class NameSearch extends React.Component {
 
     nameClicker(event) {
         event.preventDefault();
@@ -35,4 +35,4 @@ class nameSearch extends React.Component {
 
 }
 
-export default nameSearch;
+export default NameSearch;

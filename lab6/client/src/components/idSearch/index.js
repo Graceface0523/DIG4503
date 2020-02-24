@@ -1,7 +1,7 @@
 
 import React from "react";
 
-class idSearch extends React.Component{
+class IdSearch extends React.Component{
      idClicker(event) {
         event.preventDefault();
        let element = document.querySelector("#id");
@@ -32,4 +32,4 @@ class idSearch extends React.Component{
         );
     }
 }
-export default idSearch;
+export default IdSearch;
