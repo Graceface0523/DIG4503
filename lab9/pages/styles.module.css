@@ -1,0 +1,48 @@
+.head {
+    color: #006762;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+.header{
+    color: #006762;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.p{
+  color: #006762;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.a {
+  width: 20%;
+  color: #554562;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.a:hover{
+  color: black;
+}
+
+.body{
+  padding: 50px;
+  background-color: #f7f4ef;
+  width: 500px;
+  top: 30px;
+  margin: auto;
+
+}
+
+.results {
+  font-family: sans-serif;
+  color: #006762;
+  font-weight:25px;
+  font-size: 25px;
+}
