@@ -1,0 +1,126 @@
+{
+  "main": {
+    "name":"Grace White",
+    "occupation":"Web Designer",
+    "description":"In search for a job in Front-end development. I have experience in design and social media platforms. I'm a dependable figure and have a keen eye for detail. I work best individually but also can work well with a team.",
+    "image":"profilepic.jpg",
+    "bio":"I am a recent graduate from the University of Central Florida with a Bachelors of Art in Web Design.",
+    "contactmessage":"If you are a employer looking for a hard working college grad who is ready to grow with your team. Contact me!",
+    "email": "Grace18462@gmail.com",
+    "phone": "561-512-5975",
+    "address":{
+      "street":"12863 Orpington Street Apt 221",
+      "city":"Orlando",
+      "state":"Florida",
+      "zip": "32826"
+    },
+    "resumedownload":"Resume.jpg",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/ggraceeefaceee",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/grace-white-ucf/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/graceefacee__/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Graceface0523",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Soon to be grad from The University of Central Florida.",
+    "education":[
+      {
+        "school":"University of Central Florida",
+        "degree":"Masters in Digital Media - Web and Social Platforms",
+        "graduated":"August 2020",
+        "description":"I spent my 4 years at UCF crafting my skills in design, UX/UI, Html, CSS, Javascript, React.js, and Social Media Platforms."
+      }
+    ],
+    "work":[
+      {
+        "company":"Visit Orlando",
+        "title":"Digital Media Intern ",
+        "years":"Jan 2020 - Present",
+        "description":"Worked with the Web dev team with content on the consumer and e-commerce site, apply updates where needed and research and apply SEO throughout sites. "
+      },
+      {
+        "company":"UCF Marching Knights",
+        "title":"Media Coordinator",
+        "years":"May 2017 - Present",
+        "description":"Worked on a team to apply updates to UCFbands wordpress site, created branded content for the Marching Knights social media accounts."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"CMS",
+        "level":"70%"
+      },
+      {
+        "name":"Javascript",
+        "level":"50%"
+      },
+      {
+        "name":"SEO",
+        "level":"60%"
+      },
+      {
+        "name":"Adobe Lightroom",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Blind Cat Rescue",
+        "category":"Worked on a team to create a better site for a cat rescue.",
+        "image":"bcr.png",
+        "url":"https://students.cah.ucf.edu/~ca641517/dig4104/blindCatRescue/index.html"
+      },
+      {
+        "title":"Paws for Orlando",
+        "category":"Worked on a team to create an advodcy website for rescues in the orlando area.",
+        "image":"POF.png",
+        "url":"https://students.cah.ucf.edu/~me277505/PFO/"
+      },
+      {
+        "title":"Eventful",
+        "category":"A UX/UI project for an app for find events in your area.",
+        "image":"Eventful.png",
+        "url":"https://xd.adobe.com/view/d73e4b72-7bcc-4308-63b3-d989caa19b69-a10f/"
+      }
+    ]
+  }
+}
