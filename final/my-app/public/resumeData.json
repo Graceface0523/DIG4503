@@ -2,9 +2,9 @@
   "main": {
     "name":"Grace White",
     "occupation":"Web Designer",
-    "description":"In search for a job in Front-end development. I have experience in design and social media platforms. I'm a dependable figure and have a keen eye for detail. I work best individually but also can work well with a team.",
+    "description":"In search of a job in Front-end development. I have experience in design and social media platforms. I'm a dependable figure and have a keen eye for detail. I work best individually but also can work well with a team.",
     "image":"profilepic.jpg",
-    "bio":"I am a recent graduate from the University of Central Florida with a Bachelors of Art in Web Design.",
+    "bio":"I am a soon to be graduate from the University of Central Florida with a Bachelors of Art degree in Web Design.",
     "contactmessage":"If you are a employer looking for a hard working college grad who is ready to grow with your team. Contact me!",
     "email": "Grace18462@gmail.com",
     "phone": "561-512-5975",
@@ -39,11 +39,11 @@
     ]
   },
   "resume":{
-    "skillmessage":"Soon to be grad from The University of Central Florida.",
+    "skillmessage":"Ive developed many skills over the years.",
     "education":[
       {
         "school":"University of Central Florida",
-        "degree":"Masters in Digital Media - Web and Social Platforms",
+        "degree":"Bachelors of Art in Digital Media - Web and Social Platforms",
         "graduated":"August 2020",
         "description":"I spent my 4 years at UCF crafting my skills in design, UX/UI, Html, CSS, Javascript, React.js, and Social Media Platforms."
       }
@@ -53,13 +53,13 @@
         "company":"Visit Orlando",
         "title":"Digital Media Intern ",
         "years":"Jan 2020 - Present",
-        "description":"Worked with the Web dev team with content on the consumer and e-commerce site, apply updates where needed and research and apply SEO throughout sites. "
+        "description":"Worked with the Web development team to update content on the consumer and e-commerce site, applied updates where needed and researched and applied SEO throughout the sites. "
       },
       {
         "company":"UCF Marching Knights",
         "title":"Media Coordinator",
         "years":"May 2017 - Present",
-        "description":"Worked on a team to apply updates to UCFbands wordpress site, created branded content for the Marching Knights social media accounts."
+        "description":"Worked on a team to apply updates to UCFbands wordpress site, and created branded content for the Marching Knights social media accounts."
       }
     ],
     "skills":[
@@ -73,7 +73,7 @@
       },
       {
         "name":"ReactJs",
-        "level":"40%"
+        "level":"30%"
       },
       {
         "name":"CSS",
@@ -117,7 +117,7 @@
       },
       {
         "title":"Eventful",
-        "category":"A UX/UI project for an app for find events in your area.",
+        "category":"A UX/UI project for an app for finding events in your area.",
         "image":"Eventful.png",
         "url":"https://xd.adobe.com/view/d73e4b72-7bcc-4308-63b3-d989caa19b69-a10f/"
       }

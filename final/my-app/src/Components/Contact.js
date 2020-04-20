@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="mail.php" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -61,9 +61,6 @@ class Contact extends Component {
 
                   <div>
                      <button className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
                   </div>
 					</fieldset>
 				   </form>
@@ -81,6 +78,7 @@ class Contact extends Component {
 					   <h4>Address and Phone</h4>
 					   <p className="address">
 						   {name}<br />
+                     {email}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
